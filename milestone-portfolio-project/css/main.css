@@ -1,0 +1,226 @@
+
+/********BASE STYLES**********/
+
+body  {
+	font-family: 'Coromorant Garamond', serif;
+}
+/********HOMEPAGE**********/
+
+/********GRID DIMENSIONS**********/
+
+
+#homepage-header {
+   height: 600px;
+   background: url("../img/hero-image.png");
+   background-size: cover;
+   padding: 110px 0;
+}
+
+#portfolio {
+	height: 1400px;
+}
+
+#about {
+	height: 700px;
+}
+
+#contact {
+	height: 250px;
+}
+
+#footer {
+	height: 10px;
+}
+
+header .full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header .half-width {
+	width: 595px;
+  margin: auto;
+
+}
+
+
+#portfolio .full-width {
+	width: 1200px;
+	padding: 50px 0;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#portfolio .half-width {
+	width: 550px;
+  height: 300px;
+  float: left;
+
+}
+
+#portfolio .half-width-text {
+	width: 595px;
+  height: 300px;
+  float: left;
+}
+
+#about .full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#about .half-width {
+	width: 600px;
+	float: left;
+}
+
+#contact .full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#contact .third-width {
+	width: 400px;
+	float: left;
+}
+
+#contact .third-width-third {
+	width: 133.3px;
+	float: left;
+}
+
+
+/********HEADER SECTION**********/
+header h1 {
+	font-family: 'Coromorant Garamond', serif;
+	font-size: 64pt;
+	color: #bdbf09;
+  width: 800px;
+	padding: 250px 0px 45px 50px;
+	margin: 0px;
+}
+
+
+header h2 {
+	font-family: 'Coromorant Garamond', serif;
+	font-size: 32pt;
+	color: #095156;
+	clear: both;
+  padding-left: 200px;
+  width: 600px
+}
+/********PORTFOLIO SECTION**********/
+#portfolio h2 {
+	font-family: 'Coromorant Garamond', serif;
+	font-size: 46px;
+	color: #087e8b;
+	padding-top: 20px;
+	padding-left: 500px;
+	padding-bottom: 50px;
+}
+
+#portfolio h3  {
+	font-family: 'Coromorant Garamond', serif;
+	font-size: 24px;
+	color: #095156;
+	margin-bottom: 15px;
+}
+
+#portfolio p {
+	font-size: 24px;
+	color: #095156;
+	line-height: 30px;
+	margin: 5px;
+}
+
+#portfolio img {
+	border: 1px solid #b7b7b7;
+	margin: 5px;
+
+}
+
+/********ABOUT SECTION**********/
+
+#about {
+	background-color: #087e8b;
+	border-top: 3px solid #b7b7b7;
+	border-bottom: 1px solid #b7b7b7;
+}
+#about h3 {
+	font-family: 'Coromorant Garamond', serif;
+	font-size: 36px;
+	color: #ffffff;
+	padding-top: 50px;
+	padding-left: 500px;
+	padding-bottom: 50px;
+}
+#about h4 {
+	font-family: 'Coromorant Garamond', serif;
+	font-size: 24px;
+	color: #ffffff;
+	margin: 0 auto;
+  padding-top: 70px;
+}
+#about p {
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 25px;
+}
+
+#about img {
+border: 3px solid #b7b7b7;
+
+}
+/***********CONTACT SECTION************/
+#contact  {
+   background-color: #095156;
+   padding: 110px 0;
+   text-align: center;
+}
+
+#contact h2 {
+	font-family: 'Coromorant Garamond', serif;
+	font-size: 36px;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+#contact h3  {
+	font-family: 'Coromorant Garamond', serif;
+	font-size: 24px;
+	color: #ffffff;
+	width: 190px;
+	padding-left: 105px;
+	padding-bottom: 18px;
+}
+
+#contact p {
+	font-family:'Coromorant Garamond', serif;
+	font-size: 18px;
+	color: #ffffff;
+	width: 190px;
+	line-height: 5px;
+	padding-left: 105px;
+	padding-bottom: 18px;
+}
+
+/***********FOOTER SECTION************/
+
+#footer {
+	background-color: #095156;
+   padding: 110px 0;
+   text-align: center;
+}
+#footer-digital {
+   background-color: #095156;
+   padding: 25px 0;
+   text-align: center;
+}
+
+#footer p {
+	font-family: 'Coromorant Garamond', serif;
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 5px;
+}
